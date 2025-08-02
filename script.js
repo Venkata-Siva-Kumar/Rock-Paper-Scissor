@@ -63,3 +63,4 @@ function reset() {
 function updateScore() {
     document.querySelector('.js-score').innerHTML = `Wins : ${score.wins}, Loses : ${score.loses}, Ties : ${score.ties}`;
 }
+
